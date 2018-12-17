@@ -1,0 +1,275 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.card-item {
+  background-size: cover;
+  background-position: 50%;
+  height: 170px;
+  width: 170px;
+  margin: 8px 25px;
+  border: 5px solid #f1f1f1;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.16), 0 3px 6px rgba(0,0,0,.23);
+  box-shadow: 0 3px 6px rgba(0,0,0,.16), 0 3px 6px rgba(0,0,0,.23);
+  cursor: pointer;
+}
+
+.otto {
+  background-image: url("./images/Otto.png");
+}
+
+.tommy {
+  background-image: url("./images/tommy.jpg");
+}
+
+.bravo {
+  background-image: url("./images/bravo.jpg");
+}
+
+.arnold {
+  background-image: url("./images/arnold.png");
+}
+
+.dexter {
+  background-image: url("./images/dexter.jpg");
+}
+
+.powerpuff {
+  background-image: url("./images/powerpuff.jpg");
+}
+
+.pinky {
+  background-image: url("./images/pinky.png");
+}
+
+.beavis {
+  background-image: url("./images/Beavis.png");
+}
+
+.doug {
+  background-image: url("./images/Doug.png");
+}
+
+.catdog {
+  background-image: url("./images/catdog.webp");
+}
+
+.arthur {
+  background-image: url("./images/arthur.jpg");
+}
+
+.ed {
+  background-image: url("./images/ed.png");
+}
+
+.main {
+  height: 350px;
+  padding-top: 100px;
+    background-image: url("./images/legos.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top; 
+    width: 100% cover contain;
+    background-size: 100%;
+    height: 450px;
+    float: center top;
+    color: white;
+    top: 0;
+    margin-top: 0px;
+    position: relative;
+    margin-bottom: 0px;
+}
+
+.jumbotron {
+  margin-bottom: -10px;
+  padding-bottom: 50px;
+}
+
+.head {
+  text-align: center;
+  margin-top: 40px;
+  text-shadow: 2px 2px #282c34;
+  font-family: 'Amatic SC', cursive;
+font-size: 40px;
+font-weight: 700;
+color: gold;
+}
+
+.top-head {
+  font-size: 64px;
+  color: white;
+}
+
+.footer-copyright {
+  background-color: #282c34;
+  color: gold;
+}
+
+.nav {
+  font-weight: 700;
+}
+
+.navbar {
+  background-color: #282c34;
+  position: fixed;
+  width: 100%;
+  -webkit-box-shadow: 0 14px 28px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.22);
+  box-shadow: 0 14px 28px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.22);
+  color: #fff;
+  font-size: calc(10px + 14 * (100vw - 320px)/ 800);
+  z-index: 99;
+}
+
+
+.nav-item {
+  color: gold;
+  font-size: 24px;
+  font-family: 'Amatic SC', cursive;
+}
+/* nav link hovering */
+.nav-link {
+  font-family: 'Amatic SC', cursive;
+  font-size: 30px;
+  color: gold;
+  text-decoration: none;
+  
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    -o-transition: 0.6s;
+    transition: 0.6s;
+    -webkit-transition-delay: 0.2s;
+    -moz-transition-delay: 0.2s;
+    -o-transition-delay: 0.2s;
+    transition-delay: 0.2s;
+}
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.nav-link span {
+  -webkit-transition: 0.6s;
+  -moz-transition: 0.6s;
+  -o-transition: 0.6s;
+  transition: 0.6s;
+  -webkit-transition-delay: 0.2s;
+  -moz-transition-delay: 0.2s;
+  -o-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+
+.nav-link:before,
+.nav-link:after {
+    content: '';
+    position: absolute;
+    left: 14px;
+    bottom: 8px;
+    padding: .5rem 1rem;
+    text-align: center;
+    opacity: 0;
+    -webkit-transition: .4s,opacity .6s;
+    -moz-transition: .4s,opacity .6s;
+    -o-transition: .4s,opacity .6s;
+    transition: .4s,opacity .6s;
+}
+
+.nav-link:before {
+  content: attr(data-hover);
+  -webkit-transform: translate(-150%,0);
+  -moz-transform: translate(-150%,0);
+  -ms-transform: translate(-150%,0);
+  -o-transform: translate(-150%,0);
+  transform: translate(-150%,0);
+}
+
+/* :after */
+
+.nav-link:after {
+  content: attr(data-active);
+  -webkit-transform: translate(150%,0);
+  -moz-transform: translate(150%,0);
+  -ms-transform: translate(150%,0);
+  -o-transform: translate(150%,0);
+  transform: translate(150%,0);
+}
+
+/* span on :hover and :active */
+
+.nav-link:hover span,
+.nav-link:active span {
+  color: gold;
+    opacity: 0;
+    -webkit-transform: scale(0.3);
+    -moz-transform: scale(0.3);
+    -ms-transform: scale(0.3);
+    -o-transform: scale(0.3);
+    transform: scale(0.3);
+}
+
+/*  
+    We show :before pseudo-element on :hover 
+    and :after pseudo-element on :active 
+*/
+
+.nav-link:hover:before,
+.nav-link:active:after {
+  color: gold;
+    opacity: 1;
+    -webkit-transform: translate(0,0);
+    -moz-transform: translate(0,0);
+    -ms-transform: translate(0,0);
+    -o-transform: translate(0,0);
+    transform: translate(0,0);
+    -webkit-transition-delay: .4s;
+    -moz-transition-delay: .4s;
+    -o-transition-delay: .4s;
+    transition-delay: .4s;
+}
+
+/* 
+  We hide :before pseudo-element on :active
+*/
+
+.nav-link:active:before {
+    -webkit-transform: translate(0%,0);
+    -moz-transform: translate(0%,0);
+    -ms-transform: translate(0%,0);
+    -o-transform: translate(0%,0);
+    transform: translate(0%,0);
+    -webkit-transition-delay: 0s;
+    -moz-transition-delay: 0s;
+    -o-transition-delay: 0s;
+    transition-delay: 0s;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
