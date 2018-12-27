@@ -35,52 +35,20 @@
   cursor: pointer;
 }
 
-.otto {
-  background-image: url("./images/Otto.png");
+.card-item > .img-container {
+  height: 100%;
+  overflow: hidden;
+  text-align: center;
+  background: #777;
 }
 
-.tommy {
-  background-image: url("./images/tommy.jpg");
+.card-item > .img-container > img {
+  width: 60%;
 }
 
-.bravo {
-  background-image: url("./images/bravo.jpg");
-}
-
-.arnold {
-  background-image: url("./images/arnold.png");
-}
-
-.dexter {
-  background-image: url("./images/dexter.jpg");
-}
-
-.powerpuff {
-  background-image: url("./images/powerpuff.jpg");
-}
-
-.pinky {
-  background-image: url("./images/pinky.png");
-}
-
-.beavis {
-  background-image: url("./images/Beavis.png");
-}
-
-.doug {
-  background-image: url("./images/Doug.png");
-}
-
-.catdog {
-  background-image: url("./images/catdog.webp");
-}
-
-.arthur {
-  background-image: url("./images/arthur.jpg");
-}
-
-.ed {
-  background-image: url("./images/ed.png");
+.card-item > .content {
+  padding: 0px 1rem 0px 1rem;
+  font-size: 15px;
 }
 
 .main {

@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name": "Otto",
+        "image": "./images/Otto.png",
+        "count": 0
+    },
+    {
+        "id": 2,
+        "name": "Arnold",
+        "image": "./images/arnold.png",
+        "count": 0
+    },
+    {
+        "id": 3,
+        "name": "Arthur",
+        "image": "./images/arthur.jpg",
+        "count": 0
+    },
+    {
+        "id": 4,
+        "name": "Beavis",
+        "image": "./images/Beavis.png",
+        "count": 0
+    },
+    {
+        "id": 5,
+        "name": "Bravo",
+        "image": "./images/bravo.jpg",
+        "count": 0
+    },
+    {
+        "id": 6,
+        "name": "Catdog",
+        "image": "./images/catdog.webp",
+        "count": 0
+    },
+    {
+        "id": 7,
+        "name": "Dexter",
+        "image": "./images/dexter.jpg",
+        "count": 0
+    },
+    {
+        "id": 8,
+        "name": "Doug",
+        "image": "./images/Doug.png",
+        "count": 0
+    },
+    {
+        "id": 9,
+        "name": "Ed",
+        "image": "./images/ed.png",
+        "count": 0
+    },
+    {
+        "id": 10,
+        "name": "Pinky",
+        "image": "./images/pinky.png",
+        "count": 0
+    },
+    {
+        "id": 11,
+        "name": "Powerpuff",
+        "image": "./images/powerpuff.jpg",
+        "count": 0
+    },
+    {
+        "id": 12,
+        "name": "Tommy",
+        "image": "./images/tommy.jpg",
+        "count": 0
+    }
+]
